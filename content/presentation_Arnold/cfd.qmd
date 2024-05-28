@@ -67,12 +67,13 @@ Method
 
 ::::
 
-<hr size="3" color="DimGray" >
+<div style="border-top: 3px solid DimGray"></div>
 
 :::: {.columns}
 
 ::: {.column width="33%"}
-![](images/disc-fvm.png)<br>Finite volume
+![](images/disc-fvm.png){width=100}<br style= 
+        "line-height:10px"> Finite volume
 :::
 
 ::: {.column width="33%"}
@@ -85,12 +86,13 @@ imple geometry<br>No local mesh refinement
 
 ::::
 
-<hr size="3" color="DimGray" >
+<div style="border-top: 3px solid DimGray"></div>
 
 :::: {.columns}
 
 ::: {.column width="33%"}
-![](images/disc-fdm.png)<br>Finite element
+![](images/disc-fdm.png){width=100}<br style= 
+        "line-height:10px"> Finite element
 :::
 
 ::: {.column width="33%"}
@@ -103,12 +105,13 @@ Low order<br>Slow evaluation
 
 ::::
 
-<hr size="3" color="DimGray" >
+<div style="border-top: 3px solid DimGray"></div>
 
 :::: {.columns}
 
 ::: {.column width="33%"}
-![](images/disc-fem.png)<br>Finite difference
+![](images/disc-fem.png){width=100}<br style= 
+        "line-height:10px"> Finite difference
 :::
 
 ::: {.column width="33%"}
