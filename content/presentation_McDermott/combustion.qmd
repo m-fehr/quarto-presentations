@@ -1,0 +1,8 @@
+# (Turbulent) Combustion
+
+## Combustion Terms in Governing Equations {.unnumbered}
+
+\begin{gather*}
+\dfrac{\partial\rho}{\partial t} + \nabla\cdot(\rho\mathbf{u}) = \dot{m}_b''' \\
+\dfrac{\partial\rho Y_\alpha}{\partial t }+ \nabla\cdot(\rho Y_\alpha\mathbf{u}) = \nabla\cdot(\rho D_\alpha\nabla Y_\alpha) + \dot{m}_\alpha''' + \dot{m}_{b,\alpha}'''
+\end{gather*}

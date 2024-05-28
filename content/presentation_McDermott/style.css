@@ -1,0 +1,9 @@
+/*-- scss:defaults --*/
+
+/* file: style.css */
+.v-center-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}

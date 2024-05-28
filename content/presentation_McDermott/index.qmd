@@ -1,0 +1,37 @@
+---
+title: "(Turbulent) Combustion"
+#Document basics
+subtitle: "Summer School on Fire Dynamics Modeling 2022"
+author: "Randy McDermott"
+format: revealjs
+logo: content/images/logo-fzj.png
+revealjs: 
+    theme: [default, style.css]
+#Footer settings
+footer: "Summer School on Fire Dynamics Modeling 2024 – Computational Fluid Dynamics – McDermott"
+#No footer on title slide
+title-slide-attributes: 
+    data-footer: ""
+include-after-body: add-custom-footer.html
+# Table of content settings
+toc: true
+toc-depth: 1
+number-sections: true
+# Slide numbering
+slide-number: true
+crossref:
+    chapters: true
+html-math-method: mathjax
+include-in-header:
+    - text: |
+        <script>
+        window.MathJax = {
+        loader: {load: ['[tex]/mhchem']},
+        tex: {packages: {'[+]': ['mhchem']}}
+        };
+        </script>
+---
+
+{{< include combustion.qmd >}}
+
+{{< include stoichiometry.qmd >}}

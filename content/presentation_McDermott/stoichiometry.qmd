@@ -1,0 +1,29 @@
+## Stoichiometry {.unnumbered}
+
+:::: {.columns .v-center-container}
+
+::: {.column width="60%"}
+
+\begin{gather*}
+Fuel + Air \rightarrow Products
+\end{gather*}
+Complete combustion:
+\begin{gather*}
+\ce{C3H8 + 5[O2 + (0.79/0.21)N2] \rightarrow\\ 
+3CO2 + 4H2O + 5(0.79/0.21)N2}
+\end{gather*}
+:::
+
+::: {.column width="30%"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/92/Propane_Structural_Formula_B_V1.svg){fig-align=center}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Propane-3D-balls-B.png/800px-Propane-3D-balls-B.png){fig-align=center}
+
+Propane, C3H8
+
+
+:::
+::::
+
+<!-- {.absolute top=200 left=0} -->

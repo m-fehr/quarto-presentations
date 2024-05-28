@@ -1,0 +1,9 @@
+project:
+  render: 
+    - "*qmd"
+  output-dir: render
+  
+
+
+
+

@@ -1,0 +1,27 @@
+---
+title: "Computational Fluid Dynamics"
+#Document basics
+subtitle: "Summer School on Fire Dynamics Modeling 2022"
+author: "Lukas Arnold"
+format: revealjs
+logo: content/images/logo-fzj.png
+smaller: true
+#Footer settings
+footer: "Summer School on Fire Dynamics Modeling 2024 – Computational Fluid Dynamics – Lukas Arnold"
+#No footer on title slide
+title-slide-attributes: 
+    data-footer: ""
+include-after-body: add-custom-footer.html
+# Table of content settings
+toc: true
+toc-depth: 1
+number-sections: true
+# Slide numbering
+slide-number: true
+crossref:
+    chapters: true
+---
+
+{{< include cfd.qmd >}}
+
+

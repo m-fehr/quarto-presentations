@@ -1,0 +1,146 @@
+# Computational Fluid Dynamics {#sec-test}
+
+## Overview
+
+The goals of this lecture are to teach you the basics of:
+
+- Numerical solution of partial differential equations, especially the Navier-Stokes equations, i.e. computational fluid dynamics (CFD)
+
+- Discretisation techniques in space and time, especially the finite difference method, which is used by FDS
+
+- Numerical schemes to solve the scalar transport equations
+
+During the session, we will run a few Python scripts. The aim of those is to: 
+
+- ’Play’ with parameters and methods – no programming skills are required 
+
+- Give you a starting point for further activities after the summer school
+
+---
+
+### Optional tasks
+
+The exercises contain optional tasks:
+
+- If the default tasks are trivial for you, give it a try, or 
+
+- Address them during the week or after the school
+In any case, just contact me if you need to discuss them.
+
+---
+
+## Solution approaches
+
+---
+
+### Modelling approach
+
+![](images/overview-cfd.svg){.absolute top=50 left=0 right=0 style="margin: auto auto;"}
+
+---
+
+### Discretization methods Typ A
+
+| Method | Pros | Cons |
+|---|---|---|
+| ![](images/disc-fdm.png)<br>Finite difference | Fast evaluation<br>Easy <br>High order | Simple geometry<br>No local mesh refinement |
+| ![](images/disc-fvm.png)<br>Finite volume | Conservative<br>Easy<br>Complex geometry<br>Local mesh refinement | Low order<br>Slow evaluation |
+| ![](images/disc-fem.png)<br>Finite element | (Conservative) <br>Complex geometry<br>Local mesh refinement<br>High order | Slow evaluation<br>Complex scheme |
+
+---
+
+### Discretization methods Typ B
+
+:::: {.columns}
+
+::: {.column width="33%"}
+Method
+:::
+
+::: {.column width="33%"}
+[Pro]{style="color:green;"}
+:::
+
+::: {.column width="33%"}
+[Contra]{style="color:red;"}
+:::
+
+::::
+
+<hr size="3" color="DimGray" >
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![](images/disc-fvm.png)<br>Finite volume
+:::
+
+::: {.column width="33%"}
+Fast evaluation<br>Easy <br>High order
+:::
+
+::: {.column width="33%"}
+imple geometry<br>No local mesh refinement
+:::
+
+::::
+
+<hr size="3" color="DimGray" >
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![](images/disc-fdm.png)<br>Finite element
+:::
+
+::: {.column width="33%"}
+Conservative<br>Easy<br>Complex geometry<br>Local mesh refinement
+:::
+
+::: {.column width="33%"}
+Low order<br>Slow evaluation
+:::
+
+::::
+
+<hr size="3" color="DimGray" >
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![](images/disc-fem.png)<br>Finite difference
+:::
+
+::: {.column width="33%"}
+(Conservative) <br>Complex geometry<br>Local mesh refinement<br>High order
+:::
+
+::: {.column width="33%"}
+Slow evaluation<br>Complex scheme
+:::
+
+::::
+
+---
+
+### Nodes and cells A
+
+![](images/overview-cfd.svg)
+
+- Subscripts for positioning:$\phi_i = \phi(i\cdot\Delta x)$
+- Mesh spacing $\Delta x$ , $\Delta y$ and $\Delta z$ may be inhomogeneous
+- If the mesh lines are orthogonal, the mash is called Cartesian (like in FDS)
+- All above degrees of freedom (dof) may be used for discretization, i.e.
+numerical approximation
+
+---
+
+### Nodes and cells B
+
+![](images/overview-cfd.svg)
+
+- Subscripts for positioning: φi = φ(i ·∆x )
+- Mesh spacing ∆x , ∆y and ∆z may be inhomogeneous
+- If the mesh lines are orthogonal, the mash is called Cartesian (like in FDS)
+- All above degrees of freedom (dof) may be used for discretization, i.e.
+numerical approximation
